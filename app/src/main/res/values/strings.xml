@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">BioWebshop</string>
+    <string name="name">Név</string>
+    <string name="password">Jelszó</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="registration">Regisztráció</string>
+    <string name="user_name">Felhasználónév</string>
+    <string name="email_address">E-mail cím</string>
+    <string name="password_again">Jelszó megerősítése</string>
+    <string name="cancel">Mégse</string>
+    <string name="phone_number">Telefonszám</string>
+    <string name="address">Postai cím</string>
+    <string name="customer">Vásárló</string>
+    <string name="seller">Eladó</string>
+    <string name="product_description">Termék leírás</string>
+    <string name="login_as_guest">Bejelentkezés vendégként</string>
+    <string name="login_with_google">Bejelentkezés Google fiókkal</string>
+
+    <string name="title_placeholder">Title</string>
+    <string name="item_placeholder">Leírás</string>
+    <string name="item_info_placeholder">Here is some news</string>
+    <string name="subtitle_detail_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultrices congue rutrum. Phasellus elementum ipsum ac convallis aliquam. Suspendisse eleifend eros a enim faucibus mollis. Nunc placerat, est vitae vestibulum blandit, dolor diam fringilla tellus, eu euismod mauris neque at neque.</string>
+    <string name="settings">Beállítások</string>
+    <string name="logout">Kijelentkezés</string>
+    <string name="cart">Kosár</string>
+    <string name="search">Keresés</string>
+    <string name="view">Nézet</string>
+    <string name="to_cart">Kosárba</string>
+    <string name="delete">Törlés</string>
+
+    <string-array name="phone_modes">
+        <item>Otthoni</item>
+        <item>Munkahelyi</item>
+        <item>Mobil</item>
+        <item>Egyéb</item>
+    </string-array>
+
+    <string-array name="shopping_item_names">
+        <item>Acai Berry por kivonat</item>
+        <item>Szerves C vitamin ultra</item>
+        <item>Gyömbér</item>
+        <item>Kakaóbab</item>
+        <item>Kókusz chips</item>
+        <item>Kollagén por</item>
+        <item>Paradicsompüré</item>
+        <item>Szója fehérje</item>
+        <item>Zabtej</item>
+        <item>Banán chips</item>
+    </string-array>
+
+    <string-array name="shopping_item_desc">
+        <item>Acai Berry kivonatból készült por.</item>
+        <item>C-vitamin tabletta.</item>
+        <item>Kandírozott gyömbér</item>
+        <item>Organikus kakaóbab, 100%-ig természetes.</item>
+        <item>Bio pirított kókusz chips, 200 grammos kiszerelés.</item>
+        <item>Kollagén peptidek.</item>
+        <item>Bio paradicsompüré, 350 ml.</item>
+        <item>Prémium növényi fehérje italpor. 26 g fehérje adagonként.</item>
+        <item>Zabtej</item>
+        <item>Bio banán chips.</item>
+    </string-array>
+
+    <array name="shopping_item_rates">
+        <item>2.5</item>
+        <item>5</item>
+        <item>4.3</item>
+        <item>3</item>
+        <item>5</item>
+        <item>2.5</item>
+        <item>4.5</item>
+        <item>5</item>
+        <item>3.5</item>
+        <item>5</item>
+    </array>
+
+    <array name="shopping_item_images">
+        <item>@drawable/acai</item>
+        <item>@drawable/cvitamin</item>
+        <item>@drawable/gyomber</item>
+        <item>@drawable/kakaobab</item>
+        <item>@drawable/kokuszchips</item>
+        <item>@drawable/kollagenpor</item>
+        <item>@drawable/paradicsompure</item>
+        <item>@drawable/szojaprotein</item>
+        <item>@drawable/zabtej</item>
+        <item>@drawable/bananchips</item>
+    </array>
+
+    <array name="shopping_item_price">
+        <item>1200 ft</item>
+        <item>2300 ft</item>
+        <item>790 ft</item>
+        <item>1889 ft</item>
+        <item>890 ft</item>
+        <item>1990 ft</item>
+        <item>490 ft</item>
+        <item>2590 ft</item>
+        <item>680 ft</item>
+        <item>990 ft</item>
+    </array>
+</resources>

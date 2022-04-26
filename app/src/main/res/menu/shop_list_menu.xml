@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search_bar"
+        android:title="@string/search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView"
+        />
+
+    <item
+        android:id="@+id/view_selector"
+        android:title="@string/view"
+        android:icon="@drawable/ic_view_grid"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/cart"
+        android:title="@string/cart"
+        android:icon="@drawable/i_shopping_cart"
+        app:showAsAction="always"
+        app:actionLayout="@layout/custom_menu_item"
+        />
+
+    <item
+        android:id="@+id/setting_button"
+        android:title="Rendezés név szerint"
+        app:showAsAction="never"
+        app:actionViewClass="android.widget.SearchView"
+        android:orderInCategory="1"
+        />
+
+    <item
+        android:id="@+id/log_out_button"
+        android:title="@string/logout"
+        app:showAsAction="never"
+        app:actionViewClass="android.widget.SearchView"
+        android:orderInCategory="2"
+        />
+</menu>
