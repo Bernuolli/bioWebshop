@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
 
     private SharedPreferences preferences;
     private FirebaseAuth mAuth;
-    private GoogleSignInClient mGoogleSignInClient;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,8 +51,6 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         preferences = getSharedPreferences(PREF_KEY, MODE_PRIVATE);
         mAuth = FirebaseAuth.getInstance();
 
-        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestIdToken(getString(R.string.default_web_client_id)).requestEmail().build();
-        mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
 
         getSupportLoaderManager().restartLoader(0, null, this);
 
@@ -134,10 +131,6 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         });
     }
 
-    public void loginWithGoogle(View view) {
-        Intent signInIntent = mGoogleSignInClient.getSignInIntent();
-        startActivityForResult(signInIntent, RC_SIGN_IN);
-    }
 
     public void register(View view) {
         Intent intent = new Intent(this, RegisterActivity.class);
