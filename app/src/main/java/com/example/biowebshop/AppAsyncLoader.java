@@ -34,6 +34,6 @@ public class AppAsyncLoader extends AsyncTaskLoader<String> {
             e.printStackTrace();
         }
 
-        return "Bejelentkezés " + ms + "ms után.";
+        return "Bejelentkezés vendégként " + ms + "ms után.";
     }
 }

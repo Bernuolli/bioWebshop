@@ -14,7 +14,6 @@
     <string name="seller">Eladó</string>
     <string name="product_description">Termék leírás</string>
     <string name="login_as_guest">Bejelentkezés vendégként</string>
-    <string name="login_with_google">Bejelentkezés Google fiókkal</string>
 
     <string name="title_placeholder">Title</string>
     <string name="item_placeholder">Leírás</string>
