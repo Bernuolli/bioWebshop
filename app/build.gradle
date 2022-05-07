@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.biowebshop"
-        minSdk 18
+        minSdk 21
         targetSdk 32
         versionCode 1
         multiDexEnabled true
